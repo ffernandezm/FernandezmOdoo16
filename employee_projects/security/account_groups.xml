@@ -1,0 +1,7 @@
+<odoo>
+    <data>
+        <record model="res.groups" id="human_resources_user">
+            <field name="name">Human Resources / User</field>
+        </record>
+    </data>
+</odoo>

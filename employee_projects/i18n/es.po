@@ -1,0 +1,244 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* employee_projects
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-08 17:30+0000\n"
+"PO-Revision-Date: 2024-12-08 17:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "<i class=\"fa fa-arrow-left\"/> Back to Projects"
+msgstr "<i class=\"fa fa-arrow-left\"/> Regresar a Proyectos"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "<i class=\"fa fa-check\"/> Create Project"
+msgstr "<i class=\"fa fa-check\"/> Crear Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+msgid "<i class=\"fa fa-plus\"/> Create New Project"
+msgstr "<i class=\"fa fa-plus\"/> Crear nuevo Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "<i class=\"fa fa-plus\"/> Create Project"
+msgstr "<i class=\"fa fa-plus\"/> Crear Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "<strong>Assigned Employee:</strong>"
+msgstr "<strong>Empleado Asignado:</strong>"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+msgid "<strong>Description:</strong>"
+msgstr "<strong>Descriçión:</strong>"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "<strong>End Date:</strong>"
+msgstr "<strong>Fecha Fin:</strong>"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "<strong>Start Date:</strong>"
+msgstr "<strong>Fecha de inicio:</strong>"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Create New Project"
+msgstr "Crear nuevo Proyecto"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "Delete Project"
+msgstr "Eliminar proyecto"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__description
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "Description"
+msgstr "Descripción"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__display_name
+msgid "Display Name"
+msgstr "Nombre"
+
+#. module: employee_projects
+#: model:ir.model,name:employee_projects.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__employee_id
+msgid "Employee Name"
+msgstr "Nombre Empleado"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_home_employee_project
+msgid "Employee Projects"
+msgstr "Proyecto de Empleado"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "End Date"
+msgstr "Fecha fin"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__end_date
+msgid "End date"
+msgstr "Fecha Fin"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Enter project description"
+msgstr "Ingresar Descripción del Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Enter project name"
+msgstr "Ingresar el nombre del Proyecto"
+
+#. module: employee_projects
+#: model:res.groups,name:employee_projects.human_resources_user
+msgid "Human Resources / User"
+msgstr "Recursos Humanos / Usuario"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__id
+msgid "ID"
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "My Employee Projects"
+msgstr "Mis Proyecto de Empleado"
+
+#. module: employee_projects
+#. odoo-python
+#: code:addons/employee_projects/controllers/portal.py:0
+#, python-format
+msgid "Name"
+msgstr "Nombre"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+msgid "No projects found. Click \"Create New Project\" to add one."
+msgstr "No hay proyectos encontrados"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Please enter a Project description."
+msgstr "Ingresa la descripción del Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Please enter a project name."
+msgstr "Ingresa el nombre del proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Please select a start date."
+msgstr "Selecciona una fecha de inicio"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+msgid "Please select an end date."
+msgstr "Selecciona una fecha Fin"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_details
+msgid "Project Information"
+msgstr "Información del Proyecto"
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__name
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "Project Name"
+msgstr "Nombre del Proyecto"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.hr_employee_project_form_inherit
+msgid "Proyectos"
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.actions.act_window,name:employee_projects.action_employee_project
+#: model:ir.ui.menu,name:employee_projects.menu_employee_project
+#: model_terms:ir.ui.view,arch_db:employee_projects.view_employee_project_form
+#: model_terms:ir.ui.view,arch_db:employee_projects.view_employee_project_tree
+msgid "Proyectos de Empleado"
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_employee_project__start_date
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects_create
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "Start Date"
+msgstr "Fecha de Inicio"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_my_employee_projects
+msgid "There are currently no projects for your account."
+msgstr ""
+
+#. module: employee_projects
+#: model:ir.model.fields,field_description:employee_projects.field_hr_employee__total_projects
+msgid "Total Projects"
+msgstr "Total de proyectos"
+
+#. module: employee_projects
+#: model_terms:ir.ui.view,arch_db:employee_projects.portal_employee_projects
+msgid "View Details"
+msgstr "Ver detalles"
+
+#. module: employee_projects
+#: model:ir.model,name:employee_projects.model_employee_project
+msgid "employee.project"
+msgstr ""
