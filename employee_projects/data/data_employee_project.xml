@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="employee_proyect_default_data" model="employee.project">
+        <field name="name">Proyecto de empleado - Ejemplo</field>
+        <field name="description">Proyecto creado de forma preterminada para el usuario Administrador</field>
+        <field name="employee_id" eval="ref('hr.employee_admin')"/>
+        <field name="start_date" eval="DateTime.today()"/>
+        <field name="end_date" eval="(DateTime.today() + relativedelta(days=15))"/>
+    </record>
+</odoo>

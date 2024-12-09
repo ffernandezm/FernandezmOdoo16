@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="view_employee_project_tree" model="ir.ui.view">
+        <field name="name">employee.project.tree</field>
+        <field name="model">employee.project</field>
+        <field name="arch" type="xml">
+            <tree string="Proyectos de Empleado">
+                <field name="name"/>
+                <field name="employee_id"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_employee_project_form" model="ir.ui.view">
+        <field name="name">employee.project.form</field>
+        <field name="model">employee.project</field>
+        <field name="arch" type="xml">
+            <form string="Proyectos de Empleado">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="description"/>
+                        <field name="employee_id"/>
+                        <field name="start_date"/>
+                        <field name="end_date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_employee_project" model="ir.actions.act_window">
+        <field name="name">Proyectos de Empleado</field>
+        <field name="res_model">employee.project</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="menu_employee_project" name="Proyectos de Empleado" sequence="10" parent="hr.menu_hr_root" action="action_employee_project"/>
+</odoo>
